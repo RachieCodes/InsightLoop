@@ -106,17 +106,6 @@ for audio_file in os.listdir("meetings/"):
         transcriber.save_report(report, f"reports/{audio_file}.json")
 ```
 
-## 🔑 API Key Setup
-1. Get your OpenAI API key from [platform.openai.com](https://platform.openai.com/account/api-keys)
-2. Add it to your `.env` file:
-   ```
-   OPENAI_API_KEY=sk-your-key-here
-   ```
-
-## 📊 Performance
-- **Transcription**: ~1-2x real-time (1 hour audio = 30-60 minutes processing)
-- **Analysis**: Additional 30-60 seconds for AI processing
-- **Accuracy**: 95%+ for clear audio, 85%+ for challenging audio
 
 ## 🛠️ Coming Soon
 - [ ] Real-time transcription from microphone
