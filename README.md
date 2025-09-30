@@ -121,5 +121,3 @@ for audio_file in os.listdir("meetings/"):
 - ~2GB disk space for Whisper models
 - Internet connection for AI analysis
 
-## 🤝 Contributing
-
